@@ -21,7 +21,7 @@ export default function Navbar() {
       }`}
     >
       <div className="max-w-6xl mx-auto flex justify-between items-center">
-        <h1 className="text-primary font-bold text-xl">[ Diane Elzaabi ]</h1>
+        <h1 className="text-primary hover:text-pink transition font-bold text-xl"><Link href="/">[ Diane Elzaabi ]</Link></h1>
         <div className="flex space-x-6 text-text">
           <Link href="#career" className="hover:text-pink transition">#Career</Link>
           <Link href="#projects" className="hover:text-pink transition">#Projects</Link>

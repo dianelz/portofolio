@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 
-const words = ["Full Stack Developer", "React Enthusiast", "Code Lover", "Tech Explorer"];
+const words = ["Full Stack Developer", "Problem Solver", "Code Lover", "Tech Explorer","Great Manager"];
 
 export default function Hero() {
   const [text, setText] = useState("");
