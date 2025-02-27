@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
         <h2 className="text-3xl font-bold">Projects</h2>
       </section>
       <section id="contact" className="h-screen flex justify-center items-center bg-background text-text">
-        <h2 className="text-3xl font-bold">Contact Me</h2>
+        <Contact/>
       </section>
     </main>
   );

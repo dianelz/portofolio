@@ -52,7 +52,7 @@ export default function Hero() {
           <span className="w-3 h-3 bg-red rounded-full"></span>
           <span className="w-3 h-3 bg-yellow rounded-full"></span>
           <span className="w-3 h-3 bg-green rounded-full"></span>
-          <p className="ml-auto text-gray-400 text-sm">~/portfolio</p>
+          <p className="ml-auto text-gray-400 text-sm">~/presentation</p>
         </div>
 
         <div className="pt-6 text-lg">
