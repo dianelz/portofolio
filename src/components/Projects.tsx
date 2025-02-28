@@ -19,7 +19,7 @@ export default function Projects() {
 
 
     return (
-        <section id="projects" className="h-screen flex flex-col items-center justify-center bg-background text-text font-mono px-6">
+        <div className="font-mono px-6 py-12 flex flex-col items-center">
 
             <motion.div
                 initial={{ opacity: 0, y: -20 }}
@@ -57,8 +57,8 @@ export default function Projects() {
                                         alt=""
                                         width={800}
                                         height={400}
-                                        className="rounded-md object-contain mt-4 mx-auto"
-                                    />
+                                        className="rounded-md object-contain mt-4 mx-auto max-w-full h-auto max-h-64"
+                                        />
                                 )}
                             </div>
                         ))}
@@ -69,6 +69,6 @@ export default function Projects() {
                     Next →
                 </button>
             </motion.div>
-        </section>
+        </div>
     );
 }

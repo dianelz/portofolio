@@ -7,16 +7,19 @@ export default function Home() {
   return (
     <main>
       <Hero />
-      <section id="career" className="h-screen flex justify-center items-center bg-background text-text">
-        <Career/>
+      <section id="career" className="flex justify-center items-center bg-background text-text">
+        <Career />
       </section>
-      <section id="projects">
+
+      <section id="projects" className="scroll-mt-10 h-screen justify-center items-center bg-background text-text">
         <Projects/>
       </section>
-      <section id="contact" className="h-screen flex justify-center items-center bg-background text-text">
-        <Contact/>
+
+      <section id="contact" className="h-screen flex justify-center items-center overflow-y-auto bg-background text-text">
+        <Contact />
       </section>
     </main>
   );
 }
+
 

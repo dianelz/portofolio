@@ -7,7 +7,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <title>Diane Elzaabi | Portfolio</title>
         <meta name="description" content="Explore my work!" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <meta property="og:title" content="Diane Elzaabi | Portfolio" />
         <meta property="og:description" content="Explore my portfolio,this website showcases my projects, skills, and experience in web development! Feel free to explore, check out my projects, and drop me your feedback!" />
