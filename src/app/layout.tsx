@@ -10,14 +10,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <meta property="og:title" content="Diane Elzaabi | Portfolio" />
-        <meta property="og:description" content="Explore my portfolio,this website showcases my projects, skills, and experience in web development!" />
+        <meta property="og:description" content="Explore my portfolio,this website showcases my projects, skills, and experience in web development! Feel free to explore, check out my projects, and drop me your feedback!" />
         <meta property="og:image" content="https://dianeelzaabi.com/preview.png" />
         <meta property="og:url" content="https://dianeelzaabi.com" />
         <meta property="og:type" content="website" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Diane Elzaabi | Portfolio" />
-        <meta name="twitter:description" content="Explore my portfolio,this website showcases my projects, skills, and experience in web development!" />
+        <meta name="twitter:description" content="Explore my portfolio,this website showcases my projects, skills, and experience in web development! Feel free to explore, check out my projects, and drop me your feedback!" />
         <meta name="twitter:image" content="https://dianeelzaabi.com/preview.png" />
       </head>
       <body className="bg-background text-text">
