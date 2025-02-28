@@ -1,6 +1,8 @@
 import Hero from "@/components/Hero";
 import Contact from "@/components/Contact";
 import Career from "@/components/Career";
+import Projects from "@/components/Projects";
+
 export default function Home() {
   return (
     <main>
@@ -8,8 +10,8 @@ export default function Home() {
       <section id="career" className="h-screen flex justify-center items-center bg-background text-text">
         <Career/>
       </section>
-      <section id="projects" className="h-screen flex justify-center items-center bg-foreground text-text">
-        
+      <section id="projects">
+        <Projects/>
       </section>
       <section id="contact" className="h-screen flex justify-center items-center bg-background text-text">
         <Contact/>

@@ -32,7 +32,7 @@ export default function Career() {
             {
               title: "Software Engineer - French Army Ministry",
               description: "Building a solution to help PTSD soldat to get back to normal life",
-              details: "Using AI to detect stress and anxiety signals, developpint client interface and tablet application"
+              details: "Using AI to detect stress and anxiety signals, develop client interface and create tablet application."
             }
           ].map((item, index) => (
             <motion.div
@@ -45,6 +45,9 @@ export default function Career() {
               <p className="mt-2">{hovered === index ? item.details : item.description}</p>
             </motion.div>
           ))}
+        </div>
+        <div className="mt-6 text-context">
+          <a href="/DEresume.pdf" download className="text-context hover:text-pink transition flex items-center gap-2">&gt; Upload my resume</a>
         </div>
       </motion.div>
     </section>

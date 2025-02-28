@@ -16,9 +16,8 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 w-full px-8 py-4 z-50 transition-all ${
-        scrolled ? "bg-foreground shadow-lg" : "bg-transparent"
-      }`}
+      className={`fixed top-0 left-0 w-full px-8 py-4 z-50 transition-all ${scrolled ? "bg-foreground shadow-lg" : "bg-transparent"
+        }`}
     >
       <div className="max-w-6xl mx-auto flex justify-between items-center">
         <h1 className="text-primary hover:text-pink transition font-bold text-xl"><Link href="/">[ Diane Elzaabi ]</Link></h1>
