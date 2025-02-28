@@ -46,7 +46,7 @@ export default function Projects() {
                                     <h3 className="text-xl font-semibold">{project.title}</h3>
                                 )}
                                 <p className="text-gray-300 mt-2">{project.description}</p>
-                                <div className="flex justify-center gap-2 mt-2 text-sm text-gray-400">
+                                <div className="flex flex-wrap justify-center gap-2 mt-2 text-sm text-gray-400">
                                     {project.tech.map((tech, i) => (
                                         <span key={i} className={`${color(i)} hover:bg-gray-500 text-background px-4 py-2 rounded-md shadow-md`}>{tech}</span>
                                     ))}
