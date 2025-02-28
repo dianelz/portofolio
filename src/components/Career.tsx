@@ -32,7 +32,7 @@ export default function Career() {
           ))}
         </div>
         <div className="mt-6 text-context">
-          <a href="/DEresume.pdf" download className="text-context hover:text-pink transition flex items-center gap-2">&gt; Upload my resume</a>
+          <a href="/DEresume.pdf" download className="text-context hover:text-pink transition flex items-center gap-2">&gt; Download my resume</a>
         </div>
       </motion.div>
     </section>
