@@ -11,6 +11,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
         <meta property="og:title" content="Diane Elzaabi | Portfolio" />
         <meta property="og:description" content="Explore my portfolio,this website showcases my projects, skills, and experience in web development! Feel free to explore, check out my projects, and drop me your feedback!" />
+        <meta property="og:author" content="Diane Elzaabi"/>
         <meta property="og:image" content="https://dianeelzaabi.com/preview.png" />
         <meta property="og:url" content="https://dianeelzaabi.com" />
         <meta property="og:type" content="website" />
